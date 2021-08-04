@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	app := app.Gerar()
+	app := app.RunApp()
 	if error := app.Run(os.Args); error != nil {
 		log.Fatal(error)
 	}
