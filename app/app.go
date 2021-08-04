@@ -12,7 +12,7 @@ import (
 func RunApp() *cli.App {
 	app := cli.NewApp()
 
-	app.Name = "Application for comman line"
+	app.Name = "Application for command line"
 	app.Usage = "Search IPs and NS"
 
 	app.Commands = []cli.Command{
