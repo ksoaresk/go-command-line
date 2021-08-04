@@ -9,7 +9,7 @@ import (
 )
 
 //Retorna aplicação para ser executada.
-func Gerar() *cli.App {
+func RunApp() *cli.App {
 	app := cli.NewApp()
 
 	app.Name = "Application for comman line"
